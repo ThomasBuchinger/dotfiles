@@ -1,8 +1,13 @@
-.PHONY: tmux vimrc
+.PHONY: default all
 
-all: tmux vimrc
+default: ~/.tmux.conf ~/.vimrc
 
-vimrc:
-	cp vim/vimrc ~/.vimrc
-tmux:
-	cp tmux/tmux.conf ~/.tmux.conf
+all: default vscode
+
+~/.vimrc: vim/vimrc
+	cp --backup=numbered --update vim/vimrc ~/.vimrc
+~/.tmux.conf: tmux/tmux.conf
+	cp --backup=numbered --update tmux/tmux.conf ~/.tmux.conf
+
+~/.config/Code/User/settings.json: vscode/settings.json
+	cp --backup=numbered --update vscode/settings.json ~/.config/Code/User/settings.json 

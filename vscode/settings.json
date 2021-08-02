@@ -1,0 +1,37 @@
+{
+    "breadcrumbs.enabled": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.fontSize": 12,
+    "editor.tabSize": 2,
+    "editor.formatOnPaste": true,
+    "editor.renderWhitespace": "selection",
+    "editor.rulers": [
+        140
+    ],
+    "editor.suggestSelection": "first",
+    "explorer.autoReveal": false,
+    "files.eol": "\n",
+    "git.autofetch": true,
+    "python.autoComplete.addBrackets": true,
+    "python.languageServer": "Microsoft",
+    "ruby.format": "rubocop",
+    "scm.alwaysShowActions": true,
+    "swaggerViewer.previewInBrowser": true,
+    "swaggerViewer.showOnlyFileName": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "trailing-spaces.deleteModifiedLinesOnly": true,
+    "trailing-spaces.includeEmptyLines": false,
+    "window.titleBarStyle": "custom",
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.sideBar.location": "right",
+    "yaml.schemas": {
+        "https://son.schemastore.org/kustomization": "**/kustomization.yaml",
+        "Kubernetes": "**/*.yaml"
+    },
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.fontSize": 12,
+    "redhat.telemetry.enabled": false
+}
