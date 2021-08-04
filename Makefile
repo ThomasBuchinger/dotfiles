@@ -2,7 +2,7 @@
 
 default: ~/.tmux.conf ~/.vimrc
 
-all: default vscode
+all: default ~/.config/Code/User/settings.json
 
 # Vim
 ~/.vimrc: vim/vimrc vim/color-nord.vim
