@@ -54,4 +54,4 @@ set expandtab
 
 " Use colorscheme with more contrast
 " Scheme location: /usr/share/vim/vim82/colors
-colo elflord
+colo delek
