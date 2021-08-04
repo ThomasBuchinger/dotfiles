@@ -53,5 +53,4 @@ set softtabstop=4
 set expandtab
 
 " Use colorscheme with more contrast
-" Scheme location: "/usr/share/vim/vim82/colors" or "~/.vim/color"
 colo nord
