@@ -27,6 +27,7 @@
     "workbench.editor.closeOnFileDelete": true,
     "workbench.sideBar.location": "right",
     "yaml.schemas": {
+        "https://json.schemastore.org/ansible-playbook.json":"roles/**/*.yaml",
         "https://json.schemastore.org/helmfile.json": "helmfile.yaml",
         "https://json.schemastore.org/gitlab-ci.json": ".gitlab-ci.yml",
         "https://json.schemastore.org/kustomization": "**/kustomization.yaml",
