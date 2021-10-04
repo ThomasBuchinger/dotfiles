@@ -27,12 +27,24 @@
     "workbench.editor.closeOnFileDelete": true,
     "workbench.sideBar.location": "right",
     "yaml.schemas": {
-        "https://son.schemastore.org/kustomization": "**/kustomization.yaml",
-        "Kubernetes": "**/*.yaml"
+        "https://json.schemastore.org/helmfile.json": "helmfile.yaml",
+        "https://json.schemastore.org/gitlab-ci.json": ".gitlab-ci.yml",
+        "https://json.schemastore.org/kustomization": "**/kustomization.yaml",
+        "Kubernetes": "**/*.k8s"
     },
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "underline",
     "terminal.integrated.fontSize": 12,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
     "redhat.telemetry.enabled": false
 }
